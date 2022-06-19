@@ -25,7 +25,7 @@ fun main() {
     println("${age} days old is the very best age to celebrate")
 }
 
-// Função para repetir o caractere "=" 23 vezes
+// Função para repetir o caractere 
 fun printBorder(border: String, timesToRepeat: Int){
     repeat(timesToRepeat){
         print(border)
