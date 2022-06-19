@@ -1,0 +1,34 @@
+Link: https://pl.kotl.in/fe978HR1R
+
+Código:
+
+fun main() {
+    var age:Int = 23 * 365 // Multiplicando por 365 converta a idade de anos para dias
+    var name:String = "Roger"
+    var border:String = "'-._.-'"
+    var timesToRepeat = 3
+    printBorder(border, timesToRepeat)
+    println("Happy Birthday, ${name}!")
+    printBorder(border, timesToRepeat)
+    
+    //Let's print a cake!
+    println("   ,,,,,   ")
+    println("   |||||   ")
+    println(" =========")
+    println("@@@@@@@@@@@")
+    println("{~@~@~@~@~}")
+    println("@@@@@@@@@@@")
+    // This prints an empty line
+    println("")
+    
+    println("You are already ${age} days old, ${name}!")
+    println("${age} days old is the very best age to celebrate")
+}
+
+// Função para repetir o caractere "=" 23 vezes
+fun printBorder(border: String, timesToRepeat: Int){
+    repeat(timesToRepeat){
+        print(border)
+    }
+    println("")
+}
