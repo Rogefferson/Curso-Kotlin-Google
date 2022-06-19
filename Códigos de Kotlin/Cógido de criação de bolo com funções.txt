@@ -1,0 +1,39 @@
+Link: https://pl.kotl.in/jX0lA8Ayd
+
+Código:
+fun main() {
+    var age:Int = 24
+    var layers:Int = 5
+    printCakeCandles(age)
+    printCakeTop(age)
+    printCakeBottom(age,layers)
+}
+
+fun printCakeTop(age: Int){
+    repeat(age + 2){
+        print("=")
+    }
+    println("")
+}
+
+fun printCakeCandles(age: Int){
+    print("")
+    repeat(age){
+        print(",")
+    }
+    println()
+    print("")
+    repeat(age){
+        print("|")
+    }
+    println()
+}
+
+fun printCakeBottom(age: Int, layers:Int){
+   repeat(layers){
+   repeat(age + 2){
+       print("@")
+   }
+   println("")
+   }
+}
